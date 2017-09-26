@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+ 		<em>Regsiter</em>
+	</title>
+</head>
+<body>
+<form name="Regsiter" action="" method="post">
+<div>
+
+	<label for="First Name">Frist Name:</label>
+	<input id="First Name" type="text" name="First name" required>
+	<label for="Last Name">Last Name:</label>
+	<input id="Last Name" type="text" name="Last Name" required>
+
+</div>
+<div>
+<label for="Male">Male</label>
+<input type="radio" name="SEX" value="Male">	
+<label for="Female">Female</label>
+<input type="radio" name="SEX" value="Female">
+<label for="Other">Other</label>
+<input type="radio" name="SEX" value="Other">
+</div>
+<div>
+
+	<label for="Email">Email:</label>
+	<input type="Email" name="Email" required="">
+	<label for="Passwords">Passwords</label>
+	<input type="password" name="Passwords" minlength="5" maxlength="10" size="10" required="">
+
+</div>
+<div>
+<label>Birthday:</label>
+<select name="Month">
+<option selected="" ="">Month</option>
+	<option value="1">Jan</option>
+	<option value="2">Feb</option>
+</select>
+<select name="Day">
+<option selected="" ="">Day</option>
+	<option value="1">1</option>
+	<option value="2">2</option>
+</select>
+<select name="Year">
+	<option selected="" ="">Year</option>
+	<option value="1993">1993</option>
+	<option value="1994">1994</option>
+</select>
+</div>
+<div>
+	<label for="agree">I agree</label>
+	<input type="checkbox" id="agree" value="agree">
+</div>
+<div>
+	<button>Submit</button>
+</div>
+</form>
+</body>
+</html>
